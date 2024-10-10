@@ -23,4 +23,9 @@ The goal is to **improve detection accuracy** by correlating the understanding b
 
 ## Challenges and Future Work
 
-Currently this code is just a demo to demonstrate the confidence gain from extracting a higher-resolution realtime subpatch of a video stream.
+Currently, this code is just a demo to demonstrate the confidence gain from extracting a higher-resolution realtime subpatch of a video stream.
+
+- Future work is to incorporate the geometric calculation and experiment with two physical cameras, starting by assuming the objects in the global view are a fixed distance on a flat plane away.
+- Adding a LiDAR array and logic to determine distance from global view will remove the need for that assumption
+
+
