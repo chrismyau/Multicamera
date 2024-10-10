@@ -59,7 +59,7 @@ Run the script using Python:
 python master.py
 ```
 
-## Functionality
+## Demo Functionality
 
 - The script streams video from the primary webcam (`videostream.stream_video(0)`) and performs object detection using YOLOv8.
 - The frame is resized according to the `SCALE` parameter.
