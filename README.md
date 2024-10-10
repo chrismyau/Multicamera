@@ -9,6 +9,9 @@ This system uses two cameras:
 - A **global view camera** that monitors the overall scene.
 - A **dynamic camera** that zooms in on areas of interest, providing detailed information about specific objects.
 
+And one LiDAR sensor:
+- A LiDAR sensor will estimate the distance to the area of focus from the **global view**. This will allow the **dynamic view** to calculate the exact zoom level and angle adjustment required to center on the target without needing complex feature matching between the two cameras.
+
 The goal is to **improve detection accuracy** by correlating the understanding between both camera views.
 
 ## Key Features
